@@ -9,7 +9,6 @@ class Solution:
     def maxArr(self, A):
         l = len(A)
         val = []
-        req = []
         for i in range(l):
             val.append(A[i]+i)
             
